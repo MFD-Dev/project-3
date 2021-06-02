@@ -1,0 +1,42 @@
+* {
+   color: white; 
+}
+
+.container {
+    padding-top: 0px;
+    margin: 20px;
+}
+.col-sm-7 {
+    background-color: grey;
+}
+
+i {
+    color: white;
+}
+.col-sm-4 {
+    margin-left: 20px;  
+}
+
+#top-image {
+    background-color: grey;
+    padding: 10px;
+}
+
+#post   {
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+}
+#post h2, p {
+    color: black;
+} 
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .col-sm-4 {
+        margin: 0;
+        padding: 0;
+    }
+ }
+
+
